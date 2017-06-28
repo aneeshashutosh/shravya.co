@@ -60,10 +60,10 @@ Enquiry.schema.methods.sendNotificationEmail = function (callback) {
 		}).send({
 			to: admins,
 			from: {
-				name: 'Shravya Core',
-				email: 'contact@shravya-core.com',
+				name: 'The Niche',
+				email: 'contact@the-niche.com',
 			},
-			subject: 'New Enquiry for Shravya Core',
+			subject: 'New Enquiry for The Niche',
 			enquiry: enquiry,
 			brand: brand,
 			layout: false,

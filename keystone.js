@@ -11,8 +11,8 @@ var handlebars = require('express-handlebars');
 // and documentation.
 
 keystone.init({
-	'name': 'Shravya Core',
-	'brand': 'Shravya Core',
+	'name': 'The Niche',
+	'brand': 'The Niche',
 
 	'sass': 'public',
 	'static': 'public',
